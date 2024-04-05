@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T23:46:33 IST" name="Suite" finished-at="2024-04-04T23:46:33 IST" duration-ms="103">
+    <groups>
+      <group name="SystemTesting">
+        <method signature="Class1.India1()[pri:0, instance:P03RunMultiClass_GroupBy.Class1@6973b51b]" name="India1" class="P03RunMultiClass_GroupBy.Class1"/>
+        <method signature="Class2.StateCount2()[pri:0, instance:P03RunMultiClass_GroupBy.Class2@1afd44cb]" name="StateCount2" class="P03RunMultiClass_GroupBy.Class2"/>
+        <method signature="Class3.DistrictCount3()[pri:0, instance:P03RunMultiClass_GroupBy.Class3@3835c46]" name="DistrictCount3" class="P03RunMultiClass_GroupBy.Class3"/>
+      </group> <!-- SystemTesting -->
+      <group name="UnitTesting">
+        <method signature="Class1.Countries1()[pri:0, instance:P03RunMultiClass_GroupBy.Class1@6973b51b]" name="Countries1" class="P03RunMultiClass_GroupBy.Class1"/>
+        <method signature="Class2.India2()[pri:0, instance:P03RunMultiClass_GroupBy.Class2@1afd44cb]" name="India2" class="P03RunMultiClass_GroupBy.Class2"/>
+        <method signature="Class3.Telangana3()[pri:0, instance:P03RunMultiClass_GroupBy.Class3@3835c46]" name="Telangana3" class="P03RunMultiClass_GroupBy.Class3"/>
+      </group> <!-- UnitTesting -->
+    </groups>
+    <test started-at="2024-04-04T23:46:33 IST" name="RunMultiClassesGroupBy" finished-at="2024-04-04T23:46:33 IST" duration-ms="103">
+      <class name="P03RunMultiClass_GroupBy.Class3">
+        <test-method signature="DistrictCount3()[pri:0, instance:P03RunMultiClass_GroupBy.Class3@3835c46]" started-at="2024-04-04T23:46:33 IST" name="DistrictCount3" finished-at="2024-04-04T23:46:33 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistrictCount3 -->
+        <test-method signature="Telangana3()[pri:0, instance:P03RunMultiClass_GroupBy.Class3@3835c46]" started-at="2024-04-04T23:46:33 IST" name="Telangana3" finished-at="2024-04-04T23:46:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Telangana3 -->
+      </class> <!-- P03RunMultiClass_GroupBy.Class3 -->
+      <class name="P03RunMultiClass_GroupBy.Class2">
+        <test-method signature="India2()[pri:0, instance:P03RunMultiClass_GroupBy.Class2@1afd44cb]" started-at="2024-04-04T23:46:33 IST" name="India2" finished-at="2024-04-04T23:46:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- India2 -->
+        <test-method signature="StateCount2()[pri:0, instance:P03RunMultiClass_GroupBy.Class2@1afd44cb]" started-at="2024-04-04T23:46:33 IST" name="StateCount2" finished-at="2024-04-04T23:46:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StateCount2 -->
+      </class> <!-- P03RunMultiClass_GroupBy.Class2 -->
+      <class name="P03RunMultiClass_GroupBy.Class1">
+        <test-method signature="Countries1()[pri:0, instance:P03RunMultiClass_GroupBy.Class1@6973b51b]" started-at="2024-04-04T23:46:33 IST" name="Countries1" finished-at="2024-04-04T23:46:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countries1 -->
+        <test-method signature="India1()[pri:0, instance:P03RunMultiClass_GroupBy.Class1@6973b51b]" started-at="2024-04-04T23:46:33 IST" name="India1" finished-at="2024-04-04T23:46:33 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Bharath] but found [India]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Bharath] but found [India]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at P03RunMultiClass_GroupBy.Class1.India1(Class1.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- India1 -->
+      </class> <!-- P03RunMultiClass_GroupBy.Class1 -->
+    </test> <!-- RunMultiClassesGroupBy -->
+  </suite> <!-- Suite -->
+</testng-results>
