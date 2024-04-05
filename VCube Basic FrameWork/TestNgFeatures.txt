@@ -4,10 +4,10 @@ It Generates reports based on Test Case Execution. -->[DONE]
 It runs multiple Test Cases at once. -->[DONE]
 It runs multiple classes at once. -->[DONE]
 It supports Group testing. -->[DONE]
-It supports Priority testing.
-It Runs Failed test cases only.
-It Runs required TestCases only from multiple classes.
+It supports Priority testing.-->[DONE]
+It Runs Failed test cases only.-->[DONE]
+It Runs required TestCases only from multiple classes.-->[DONE]
+It supports Annotations.-->[DONE]
 It Supports Parallel testing
 It Supports Parameterized Testing.
-It supports Annotations.
 It Supports Data Provider.

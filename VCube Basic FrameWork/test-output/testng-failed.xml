@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="RunMultiClassesGroupBy(failed)">
-    <groups>
-      <run>
-        <exclude name="Regression"/>
-      </run>
-    </groups>
+  <test thread-count="5" name="RunMultiClassFailed(failed)">
     <classes>
-      <class name="P03RunMultiClass_GroupBy.Class1">
+      <class name="P05_RunOnlyFailedTest.Class2">
         <methods>
-          <include name="India1"/>
+          <include name="Telangana"/>
         </methods>
-      </class> <!-- P03RunMultiClass_GroupBy.Class1 -->
+      </class> <!-- P05_RunOnlyFailedTest.Class2 -->
+      <class name="P05_RunOnlyFailedTest.Class1">
+        <methods>
+          <include name="India"/>
+        </methods>
+      </class> <!-- P05_RunOnlyFailedTest.Class1 -->
     </classes>
-  </test> <!-- RunMultiClassesGroupBy(failed) -->
+  </test> <!-- RunMultiClassFailed(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,4 +1,4 @@
-package P02RunMultiClasses;
+package P02_RunMultiClasses;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

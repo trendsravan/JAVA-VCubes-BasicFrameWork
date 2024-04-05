@@ -1,4 +1,4 @@
-package P03RunMultiClass_GroupBy;
+package P03_RunMultiClass_GroupBy;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

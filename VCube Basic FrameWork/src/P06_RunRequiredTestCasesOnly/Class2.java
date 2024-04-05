@@ -1,4 +1,4 @@
-package P02RunMultiClasses;
+package P06_RunRequiredTestCasesOnly;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,6 +15,6 @@ public class Class2 {
 	  @Test
 	  public void Telangana() {
 		 String StateCode ="TG";
-		 Assert.assertEquals(StateCode, "TS"); }
+		 Assert.assertEquals(StateCode, "TG"); }
 	  
 }

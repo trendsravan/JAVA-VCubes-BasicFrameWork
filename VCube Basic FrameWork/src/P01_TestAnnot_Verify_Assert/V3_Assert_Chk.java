@@ -1,4 +1,4 @@
-package P01TestAnnot_Verify_Assert;
+package P01_TestAnnot_Verify_Assert;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 public class V3_Assert_Chk {

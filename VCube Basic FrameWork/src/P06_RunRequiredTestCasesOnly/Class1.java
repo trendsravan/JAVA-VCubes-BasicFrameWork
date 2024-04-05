@@ -1,4 +1,4 @@
-package P02RunMultiClasses;
+package P06_RunRequiredTestCasesOnly;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,7 +11,7 @@ public class Class1 {
   @Test
   public void India() {
 	 String ConutryName ="India";
-	 Assert.assertEquals(ConutryName, "Bharath"); }
+	 Assert.assertEquals(ConutryName, "India"); }
   @Test
   public void BorderWith() {
 	 int BorderWith =9;
